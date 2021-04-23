@@ -12,6 +12,8 @@ class Pet(object):
         Pet.num_pets += 1
 
     def speak(self):
+        # x = self.num_pets
+        # self.num_pets += 1
         print("my name is %s and the number of pets is %d" %(self.name, self.num_pets))
 
 
